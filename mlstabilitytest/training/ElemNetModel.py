@@ -7,7 +7,7 @@ import tensorflow.keras
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Activation, Dropout, BatchNormalization
 from tensorflow.keras import optimizers
-from tensorflow.keras.callbacks.callbacks import EarlyStopping
+from tensorflow.keras.callbacks import EarlyStopping
 
 
 class ElemNet(MLModel):
