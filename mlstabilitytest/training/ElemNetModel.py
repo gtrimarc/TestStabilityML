@@ -3,11 +3,11 @@ import numpy as np
 import pandas as pd
 from collections import defaultdict
 from mlstabilitytest.training.MLModel import MLModel
-import keras
-from keras.models import Sequential
-from keras.layers import Dense, Activation, Dropout, BatchNormalization
-from keras import optimizers
-from keras.callbacks.callbacks import EarlyStopping
+import tensorflow.keras
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Activation, Dropout, BatchNormalization
+from tensorflow.keras import optimizers
+from tensorflow.keras.callbacks.callbacks import EarlyStopping
 
 
 class ElemNet(MLModel):
